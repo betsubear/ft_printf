@@ -6,7 +6,7 @@
 /*   By: aroyet <aroyet@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 12:00:54 by aroyet            #+#    #+#             */
-/*   Updated: 2023/02/22 12:28:45 by aroyet           ###   ########.fr       */
+/*   Updated: 2023/02/22 12:37:48 by aroyet           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ int main ()
 	printf("%c\n", 'A'); // Basic character
 	printf("%s\n", "hello"); // Basic string
 	printf("%p\n", p); // Pointer address
+	printf("%d\n", printf("42\n")); // Return value of printf
 
 	//PRECISION AND WIDTH
 	printf("\n----PRECISION ANS WIDTH----\n");
@@ -45,5 +46,6 @@ int main ()
 
 	//OTHERS
 
+	printf("\n----OTHERS----\n");
 printf("%p\n", NULL); // NULL POINTER
 }
